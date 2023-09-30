@@ -12,20 +12,8 @@ documentation = "https://github.com/karaokenerds/python-audio-separator/blob/mai
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
-numpy = "1.22"
-soundfile = "^0.12"
-librosa = "^0.10"
-torch = "^2"
-wget = "^3"
 six = "^1.16"
 
-[tool.poetry.dependencies.onnxruntime]
-version = "^1.15"
-markers = "sys_platform != 'darwin' and platform_machine != 'arm64'"
-
-[tool.poetry.dependencies.onnxruntime-silicon]
-version = "^1.15"
-markers = "sys_platform == 'darwin' and platform_machine == 'arm64'"
 
 [tool.poetry.scripts]
 audio-separator = 'audio_separator.utils.cli:main'
