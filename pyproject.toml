@@ -12,6 +12,7 @@ documentation = "https://github.com/karaokenerds/python-audio-separator/blob/mai
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.11"
+wget = "^3"
 six = "^1.16"
 
 
