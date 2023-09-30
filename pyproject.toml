@@ -14,7 +14,7 @@ documentation = "https://github.com/karaokenerds/python-audio-separator/blob/mai
 python = ">=3.9,<3.11"
 onnx = "^1.14.0"
 numpy = "^1.23"
-soundfile = "^0.11"
+soundfile = "^0.12"
 librosa = "^0.9"
 torch = "^2"
 wget = "^3"
